@@ -19,7 +19,7 @@ VAR
     size,i : INTEGER;
 BEGIN
     arr:={2,5,4,3,9,7,12,9,1};
-    size:=sizeof(arr)/sizeof(arr[0]);
+    size:=arr.length;
     inSorting(arr,size);
     Write("This is the sorted arrray:");
     FOR i FROM 0 TO arr.length-1 STEP 1  DO
